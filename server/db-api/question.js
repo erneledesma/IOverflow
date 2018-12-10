@@ -2,7 +2,7 @@ import Debug from 'debug'
 import { Question, Answer } from '../models'
 
 const debug = new Debug('ideas-overflow:db-api:question')
-//Este modulo le pide al modulo le pide al modelo de preguntas que nos devuelva todas las preguntas que encuentre en la BBDD
+//Este modulo le pide  al modelo de preguntas que nos devuelva todas las preguntas que encuentre en la BBDD
 export default {
   findAll: (sort = '-createdAt') => {
     debug('Finding all questions')
